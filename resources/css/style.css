@@ -1,34 +1,83 @@
-body, html {
-  margin: 0px;
-  padding: 0px;
+/* Universal Styles */
+
+body {
+  margin: 0;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+a {
+  color: black;
+}
+
+h2{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+nav span{
+
+}
+
+/* News Stories */
+.stories{
+
+}
+
+. stories .text-content {
+
+}
+
+.story{
+
+}
+
+.narrative{
+
+}
+
+.image-content{
+
 }
 
 /* Header */
 
-.header {
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid black;
   background-color: white;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  display: flex;
-  position: fixed;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid black;
-  height: 75px;
-  top: 0px;
-  left: 0px;
-  right: 0px;
 }
-.header h3 {
+
+.logo{
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+}
+
+.logo img{
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
+}
+
+.logo span{
   color: MediumAquamarine;
 }
-.header nav {
-  display: inline-block;
-}
-.header a {
-  color: black;
-}
-.header .logo {
-  display: inline-flex;
+
+header nav{
+  padding-right: 40px;
 }
